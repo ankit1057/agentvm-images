@@ -3,6 +3,10 @@
   "images": [
     { "name": "alpine-riscv64", "label": "Alpine 3.20 · python3 + git · 1GB · TinyEMU — fast, recommended", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-alpine-riscv64.wasm.gz", "gz_size": 56844414, "sha256": "8c2a7c2eacbc3746466257fc7b01a60d43f5bd65bd5f8b83a129cefac2008d6d" }
     ,
+    { "name": "alpine-riscv64-1536", "label": "Alpine 3.20 · python3 + git · 1.5GB RAM · TinyEMU — fast", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-alpine-riscv64-1536.wasm.gz", "gz_size": 57411967, "sha256": "713c16be77fd51a908f4fbd62f3cead99314d032f73f982b83f4d788f74c3063" }
+    ,
+    { "name": "alpine-riscv64-1792", "label": "Alpine 3.20 · python3 + git · 1.75GB RAM · TinyEMU — max RAM (6GB+ device)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-alpine-riscv64-1792.wasm.gz", "gz_size": 57646832, "sha256": "0dd215521351a71b45aab0a4b32a91454fa694b794eb44883936747c70283f8f" }
+    ,
     { "name": "ubuntu-riscv64", "label": "Ubuntu 22.04 · python3 + git · 1GB · TinyEMU — fast", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-ubuntu-riscv64.wasm.gz", "gz_size": 89926313, "sha256": "41573ab89aaad291e857f51c1697eb9d31f140f508692c7ef0c7aa6ddd9881bc" }
     ,
     { "name": "debian-riscv64", "label": "Debian trixie · python3 + git · 1GB · TinyEMU — fast", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-debian-riscv64.wasm.gz", "gz_size": 102321478, "sha256": "24194f791957c7fe2cca6cb57f0e3e1c6e119a759213b8e2ac6dcb9af5c326ca" }
