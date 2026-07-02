@@ -16,5 +16,7 @@
     { "name": "debian", "label": "Debian stable · python3 + git · 1GB · x86_64/Bochs — slower, compatibility", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-debian-amd64.wasm.gz", "gz_size": 133125311, "sha256": "9c6d83530ede9a2bb2b9596bf195b6c1c75f25618bb6116c1b1f5f187add249a" }
     ,
     { "name": "ubuntu", "label": "Ubuntu 22.04 · python3 + git · 1GB · x86_64/Bochs — slower, compatibility", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-ubuntu-amd64.wasm.gz", "gz_size": 104025315, "sha256": "2faefa4eb32a65300143c199d68ce394881e33ac42b398c74db6fa94e103a56a" }
+    ,
+    { "name": "python311-wasi", "type": "wasm", "label": "Python 3.11 · WASI module · near-native (V8 JIT)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/python311-wasi.wasm.gz", "gz_size": 9794375, "sha256": "c9af051af3f23463b43a247b9581edecfe2eb81d4b9fc9f7242c216589f2c875" }
   ]
 }
