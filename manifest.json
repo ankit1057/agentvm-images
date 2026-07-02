@@ -1,10 +1,16 @@
 {
   "schema": 1,
   "images": [
-    { "name": "alpine", "label": "Alpine 3.20 · python3 + git · 1GB RAM (x86_64/Bochs)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-alpine-amd64.wasm.gz", "gz_size": 79140391, "sha256": "f99dce8271c5d2c29ea4f481c42b1145cac01ef2def91a14759344e5a2e83e82" }
+    { "name": "alpine-riscv64", "label": "Alpine 3.20 · python3 + git · 1GB · TinyEMU — fast, recommended", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-alpine-riscv64.wasm.gz", "gz_size": 56844414, "sha256": "8c2a7c2eacbc3746466257fc7b01a60d43f5bd65bd5f8b83a129cefac2008d6d" }
     ,
-    { "name": "debian", "label": "Debian stable-slim · python3 + git · 1GB RAM (x86_64/Bochs)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-debian-amd64.wasm.gz", "gz_size": 133125311, "sha256": "9c6d83530ede9a2bb2b9596bf195b6c1c75f25618bb6116c1b1f5f187add249a" }
+    { "name": "ubuntu-riscv64", "label": "Ubuntu 22.04 · python3 + git · 1GB · TinyEMU — fast", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-ubuntu-riscv64.wasm.gz", "gz_size": 89926313, "sha256": "41573ab89aaad291e857f51c1697eb9d31f140f508692c7ef0c7aa6ddd9881bc" }
     ,
-    { "name": "ubuntu", "label": "Ubuntu 22.04 · python3 + git · 1GB RAM (x86_64/Bochs)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-ubuntu-amd64.wasm.gz", "gz_size": 104025315, "sha256": "2faefa4eb32a65300143c199d68ce394881e33ac42b398c74db6fa94e103a56a" }
+    { "name": "debian-riscv64", "label": "Debian trixie · python3 + git · 1GB · TinyEMU — fast", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-debian-riscv64.wasm.gz", "gz_size": 102321478, "sha256": "24194f791957c7fe2cca6cb57f0e3e1c6e119a759213b8e2ac6dcb9af5c326ca" }
+    ,
+    { "name": "alpine", "label": "Alpine 3.20 · python3 + git · 1GB · x86_64/Bochs — slower, compatibility", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-alpine-amd64.wasm.gz", "gz_size": 79140391, "sha256": "f99dce8271c5d2c29ea4f481c42b1145cac01ef2def91a14759344e5a2e83e82" }
+    ,
+    { "name": "debian", "label": "Debian stable · python3 + git · 1GB · x86_64/Bochs — slower, compatibility", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-debian-amd64.wasm.gz", "gz_size": 133125311, "sha256": "9c6d83530ede9a2bb2b9596bf195b6c1c75f25618bb6116c1b1f5f187add249a" }
+    ,
+    { "name": "ubuntu", "label": "Ubuntu 22.04 · python3 + git · 1GB · x86_64/Bochs — slower, compatibility", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-ubuntu-amd64.wasm.gz", "gz_size": 104025315, "sha256": "2faefa4eb32a65300143c199d68ce394881e33ac42b398c74db6fa94e103a56a" }
   ]
 }
