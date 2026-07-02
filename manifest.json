@@ -4,5 +4,7 @@
     { "name": "alpine", "label": "Alpine 3.20 · python3 + git · 1GB RAM (x86_64/Bochs)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-alpine-amd64.wasm.gz", "gz_size": 79140391, "sha256": "f99dce8271c5d2c29ea4f481c42b1145cac01ef2def91a14759344e5a2e83e82" }
     ,
     { "name": "debian", "label": "Debian stable-slim · python3 + git · 1GB RAM (x86_64/Bochs)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-debian-amd64.wasm.gz", "gz_size": 133125311, "sha256": "9c6d83530ede9a2bb2b9596bf195b6c1c75f25618bb6116c1b1f5f187add249a" }
+    ,
+    { "name": "ubuntu", "label": "Ubuntu 22.04 · python3 + git · 1GB RAM (x86_64/Bochs)", "url": "https://github.com/ankit1057/agentvm-images/releases/download/v1/agentvm-ubuntu-amd64.wasm.gz", "gz_size": 104025315, "sha256": "2faefa4eb32a65300143c199d68ce394881e33ac42b398c74db6fa94e103a56a" }
   ]
 }
